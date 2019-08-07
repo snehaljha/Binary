@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                tools:context=".MainActivity">
+    <Button
+            android:text="binary to octal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="119dp"
+            tools:layout_editor_absoluteX="139dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:textSize="18sp"
+            android:id="@+id/octal"/>
+    <TextView
+            android:text="Operations"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="89dp"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="#009688"
+            android:id="@+id/textView"/>
+    <Button
+            android:text="Binary to decimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="180dp"
+            android:textSize="18sp"
+            android:id="@+id/decimal"/>
+    <Button
+            android:text="Binary to Hexadecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="240dp"
+            android:textSize="18sp"
+            android:id="@+id/hexadecimal"/>
+    <Button
+            android:text="Binary-Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:textSize="18sp"
+            android:id="@+id/graybin"/>
+    <Button
+            android:text="Addition/Subtraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="18sp"
+            android:layout_marginTop="360dp"
+            android:id="@+id/btnaddsub"
+            />
+</RelativeLayout>

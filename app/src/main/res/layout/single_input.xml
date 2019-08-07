@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter Binary Code"
+            android:layout_marginTop="150dp"
+            android:textSize="20sp"
+            android:ems="10"
+            tools:layout_editor_absoluteY="227dp"
+            tools:layout_editor_absoluteX="88dp"
+            android:id="@+id/singletf" android:autofillHints="" tools:targetApi="o"/>
+    <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="58dp"
+            tools:layout_editor_absoluteX="176dp"
+            android:layout_alignParentTop="true"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:textAlignment="center"
+            android:id="@+id/singlelabel"/>
+    <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="402dp"
+            tools:layout_editor_absoluteX="156dp"
+            android:layout_marginTop="350dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/singleans"/>
+    <Button
+            android:text="convert"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/singlebtn"/>
+</RelativeLayout>
